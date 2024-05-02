@@ -21,6 +21,37 @@ int main() {
 		cout << finallyNumber << " ";
 		finallyNumber++;
 	}
+	cout << "" << endl;
+
+	cout << "Even numbers in the range: ";
+	finallyNumber = firstNumber;
+	while (finallyNumber <= secondNumber) {
+		if (finallyNumber % 2 == 0) {
+			cout << finallyNumber << " ";
+		}
+		finallyNumber++;
+	}
+	cout << "" << endl;
+
+	cout << "Odd numbers in the range: ";
+	finallyNumber = firstNumber;
+	while (finallyNumber <= secondNumber) {
+		if (finallyNumber % 2 != 0) {
+			cout << finallyNumber << " ";
+		}
+		finallyNumber++;
+	}
+	cout << "" << endl;
+
+	cout << "Numbers divisible by seven: " << endl;
+	finallyNumber = firstNumber;
+	while (finallyNumber <= secondNumber) {
+		if (finallyNumber % 7 == 0) {
+			cout << finallyNumber << " ";
+		}
+		finallyNumber++;
+	}
+	cout << "" << endl;
 
 	system("pause");
 	return 0;
